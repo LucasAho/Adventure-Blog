@@ -1,10 +1,16 @@
 ---
+import "bootstrap/dist/css/bootstrap.min.css";
+import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
+
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
 const { pageTitle } = Astro.props;
+const { isSubPage } = Astro.props;
 ---
+
+<script src={bootstrap}></script>
 
 <html lang="en">
     <head>
@@ -16,7 +22,13 @@ const { pageTitle } = Astro.props;
     </head>
     <body>
         <Header />
-        <h1>{pageTitle}</h1>
+        <!-- {
+            isSubPage ? (
+                <h1 class="text-center">{pageTitle}</h1>
+            ) : (
+                <h1 class="text-center">Not Sub Pages{pageTitle}</h1>
+            )
+        } -->
         <slot />
         <Footer />
         <script>

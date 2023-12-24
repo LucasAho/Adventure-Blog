@@ -1,8 +1,7 @@
 ---
 layout: ../../layouts/PoetryLayout.astro
-title: Shadow Upon the Wall
-pubDate: January 11th, 2022
-blurb: There is only one way out of the maze. Yet is escape good?
+title: "Shadow Upon the Wall"
+pubDate: 2022-01-11
 image:
     url: 'https://i.imgur.com/mzGtdum.jpg'
     alt: "In the Maze Stock"

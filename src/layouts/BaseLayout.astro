@@ -22,9 +22,10 @@ const { isSubPage } = Astro.props;
     </head>
     <body>
         <Header />
+        <h1 class="text-center">{pageTitle}</h1>
         <!-- {
             isSubPage ? (
-                <h1 class="text-center">{pageTitle}</h1>
+                
             ) : (
                 <h1 class="text-center">Not Sub Pages{pageTitle}</h1>
             )

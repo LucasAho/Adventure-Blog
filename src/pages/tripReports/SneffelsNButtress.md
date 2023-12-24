@@ -6,7 +6,7 @@ blurb: My first attempt of Sneffels's North Buttress, my would-be 14er finisher.
 image:
     url: 'https://i.imgur.com/AToGoMO.jpg'
     alt: "North Buttress from 13,000'"
-tags: ["hiking", "mountaineering", "alpinism", "colorado"]
+tags: ["hiking", "mountaineering", "alpinism", "colorado", "blog", "trip report"]
 ---
 
 ## Facing Defeat

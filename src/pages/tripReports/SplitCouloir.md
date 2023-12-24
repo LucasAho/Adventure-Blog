@@ -114,7 +114,7 @@ After crawling my way up to Ellen (I would not have gone graceful into that good
                 alt="Fork in the Road"
             />
         </div>
-        <div class="col-md-7 col-sm-12" style="padding-left: 1">
+        <div class="col-md-7 col-sm-12" style="padding-left: 0">
                 First on the left was an ice chimney, which immediately appealed to me. However, previous trip reports stated they weren't able to place any protection, and neither of us were keen on getting stuck halfway up with no way to lower. <br/>
                 In the middle was that smear of WI4 and mixed ice. It appeared to be equally unprotectable, and I certainly wouldn't be leading it. <br/>
                 The final option, as suggested by the previous trip report, was that 5.easy/M0 route up the right side. However, we did not realize that the previous party had gone up further back, at the arete. Having missed their turn (without realizing), we instead found ourselves beneath an obvious splitter crack that rose straight out of the couloir. <br>

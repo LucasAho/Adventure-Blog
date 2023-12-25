@@ -11,16 +11,18 @@ const uniqueTags = [
 const pageTitle = "Tags";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-    <h2>All my tags</h2>
-    <div class="tags">
-        {
-            uniqueTags.map((tag) => (
-                <p class="tag">
-                    <a href={`/tags/${tag}`}>{tag}</a>
-                </p>
-            ))
-        }
+<BaseLayout>
+    <div class="container py-2" style="height:50rem">
+        <h1>Sort by tag</h1>
+        <div class="tags">
+            {
+                uniqueTags.map((tag) => (
+                    <p class="tag">
+                        <a href={`/tags/${tag}`}>{tag}</a>
+                    </p>
+                ))
+            }
+        </div>
     </div>
 </BaseLayout>
 <style>

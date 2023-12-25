@@ -1,66 +1,60 @@
 ---
-import "../styles/global.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const pageTitle = "About Me";
-const identity = {
-    firstName: "Sarah",
-    country: "Canada",
-    occupation: "Technical Writer",
-    hobbies: ["photography", "birdwatching", "baseball"],
-};
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-
-const happy = true;
-const finished = false;
-const goal = 3;
-
-const skillColor = "navy";
-const fontWeight = "bold";
-const textCase = "uppercase";
+// const skills = [
+//     "HTML, CSS, & JavaScript",
+//     "React, NextJS, & Astro",
+//     "MongoDB & NoSQL",
+//     "Azure & Cloud Hosting",
+// ];
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-    <h2>... and my new Astro site!</h2>
+<BaseLayout>
+    <div class="container py-2" style="height:50rem">
+        <h1>About Me</h1>
 
-    <p>
-        I am working through Astro's introductory tutorial. This is the second
-        page on my website, and it's the first one I built myself!
-    </p>
-
-    <p>
-        This site will update as I complete more of the tutorial, so keep
-        checking back and see how my journey is going!
-    </p>
-
-    <p>Here are a few facts about me:</p>
-    <ul>
-        <li>My name is {identity.firstName}</li>
-        <li>
-            I live in {identity.country} and I work as a {identity.occupation}.
-        </li>
-        {
-            identity.hobbies.length >= 2 && (
-                <li>
-                    Two of my hobbies are {identity.hobbies[0]} and{" "}
-                    {identity.hobbies[1]}
-                </li>
-            )
-        }
-    </ul>
-    <p>My skills are:</p>
-    <ul>
-        {skills.map((skill) => <li class="skill">{skill}</li>)}
-    </ul>
-    {happy && <p>I am happy to be learning Astro!</p>}
-
-    {finished && <p>I finished this tutorial!</p>}
-
-    {
-        goal === 3 ? (
-            <p>My goal is to finish in 3 days.</p>
-        ) : (
-            <p>My goal is not 3 days.</p>
-        )
-    }
+        <p>
+            Hello! I am an alpinist and author. While I spend as much time as
+            possible travelling, living in my car. I am a Colorado native, and
+            still spend my winters there.
+        </p>
+        <p>
+            I spend much of my time in the mountains as possible, always pushing
+            the boundaries of what my body can achieve. I have climbed over 60
+            unique 14,000+ foot peaks in the contiguous US, and I have set my
+            sights on Alaska and Canada. My favorite niche is mixed climbing,
+            and I do my best to get on the tools every month of the year.
+        </p>
+        <p>
+            I also write science-fiction and poetry. While it has lately taken a
+            back seat to my career and adventures, my science-fiction world is
+            one of my greatest passions, and it has been a work in progress
+            since 2019. Much of this site is dedicated to the worldbuilding and
+            language construction inherent to its setting.
+        </p>
+        <p>
+            Currently, I work a remote Technical Support job, with Azure App
+            Services. I am educated as a full stack web developer, and I hope to
+            land a career that will faciliate my lifestyle as a digital nomad.
+        </p>
+        <p>
+            Regardless of the endeavor, I strive to give 100% in all I do, and I
+            intend to learn and improve until the mountains take me.
+        </p>
+        <p>
+            If you'd like to get in touch to plan a rad climb or collaborate on
+            a development project, take a look at my socials, and feel free to
+            send me a message! I respond to everyone.
+        </p>
+        <!-- 
+        <p>Here are a few fun facts about me:</p>
+        <ul>
+            <li>On my high school climbing team, my nickname was Pants</li>
+            <li></li>
+        </ul>
+        <p>My skills are:</p>
+        <ul>
+            {skills.map((skill) => <li class="skill">{skill}</li>)}
+        </ul> -->
+    </div>
 </BaseLayout>

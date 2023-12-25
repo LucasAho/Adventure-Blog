@@ -3,20 +3,36 @@ import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
-    <p>Climbed {frontmatter.pubDate.slice(0, 10)}</p>
-    <p>{frontmatter.blurb}</p>
-    <img width="25%" src={frontmatter.image.url} alt={frontmatter.image.alt} />
-    <slot />
-    <h3>Other posts like this:</h3>
-    <div class="tags">
-        {
-            frontmatter.tags.map((tag) => (
-                <p class="tag">
-                    <a href={`/tags/${tag}`}>{tag}</a>
-                </p>
-            ))
-        }
+<BaseLayout>
+    <div class="container py-2 text-center">
+        <div class="row justify-content-evenly align-items-center">
+            <div class="col-md-6 col-sm-12">
+                <h1>{frontmatter.title}</h1>
+                <p>Climbed {frontmatter.pubDate.slice(0, 10)}</p>
+                <p>{frontmatter.blurb}</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img
+                    width="100%"
+                    src={frontmatter.image.url}
+                    alt={frontmatter.image.alt}
+                />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <slot />
+
+        <h3>Other posts like this:</h3>
+        <div class="tags">
+            {
+                frontmatter.tags.map((tag) => (
+                    <p class="tag">
+                        <a href={`/tags/${tag}`}>{tag}</a>
+                    </p>
+                ))
+            }
+        </div>
     </div>
 </BaseLayout>
 <style>

@@ -109,7 +109,7 @@ const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 		<div class="row justify-content-evenly align-items-start">
 			<div class="col-md-6 col-sm-12">
 				<a class="card-links" href={allTripReports[0].url}>
-					<div class="card mx-auto" style="width: 30rem;">
+					<div class="card mx-auto tripReportCards">
 						<img
 							src={allTripReports[0].frontmatter.image.url}
 							class="card-img-top"
@@ -125,7 +125,7 @@ const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 			</div>
 			<div class="col-md-6 col-sm-12">
 				<a class="card-links" href={allTripReports[1].url}>
-					<div class="card mx-auto" style="width: 30rem;">
+					<div class="card mx-auto tripReportCards">
 						<img
 							src={allTripReports[1].frontmatter.image.url}
 							class="card-img-top"
@@ -149,9 +149,15 @@ const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 	.carousel-sizing {
 		width: 60%;
 	}
+	.tripReportCards {
+		width: 100%;
+	}
 	@media screen and (max-width: 768px) {
 		.carousel-sizing {
 			width: 90%;
+		}
+		.tripReportCards {
+			width: 100%;
 		}
 	}
 </style>

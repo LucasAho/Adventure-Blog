@@ -7,7 +7,6 @@ import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
 const { pageTitle } = Astro.props;
-const { isSubPage } = Astro.props;
 ---
 
 <script src={bootstrap}></script>
@@ -20,16 +19,8 @@ const { isSubPage } = Astro.props;
         <meta name="generator" content={Astro.generator} />
         <title>{pageTitle}</title>
     </head>
-    <body>
+    <body style="padding:0">
         <Header />
-        <h1 class="text-center">{pageTitle}</h1>
-        <!-- {
-            isSubPage ? (
-                
-            ) : (
-                <h1 class="text-center">Not Sub Pages{pageTitle}</h1>
-            )
-        } -->
         <slot />
         <Footer />
         <script>

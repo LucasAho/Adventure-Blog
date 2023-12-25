@@ -3,7 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title} isSubPage="true">
+<BaseLayout pageTitle={frontmatter.title}>
     <p>Climbed {frontmatter.pubDate.slice(0, 10)}</p>
     <p>{frontmatter.blurb}</p>
     <img width="25%" src={frontmatter.image.url} alt={frontmatter.image.alt} />

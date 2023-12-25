@@ -4,18 +4,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Lucas Asher";
 const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 const allPoetry = await Astro.glob("../pages/poetry/*.md");
+const allAutoBio = await Astro.glob("../pages/autobio/*.md");
 ---
 
 <BaseLayout>
 	<!-- Top Block -->
-	<div class="purple pt-1 pb-3">
-		<h1 class="text-center my-1">{pageTitle}</h1>
-		<h4 class="text-center mb-4">Author, mountaineer, and web developer</h4>
-		<!-- <p class="px-5 mb-3">
-			Hello! I am an alpinist and author from Colorado. I use this site to
-			share my adventures, as well as the creative endeavors that I am
-			most proud of.
-		</p> -->
+	<div class="purple container pt-1 pb-3">
+		<h1 class="text-center mt-0 mb-1">{pageTitle}</h1>
+		<h5 class="text-center mb-3">Author, mountaineer, and web developer</h5>
 		<div
 			id="image-carousel"
 			class="carousel slide mx-auto carousel-sizing"
@@ -110,8 +106,8 @@ const allPoetry = await Astro.glob("../pages/poetry/*.md");
 		</div>
 	</div>
 	<!-- TR Block -->
-	<h3 class="text-center my-3">Trip Reports</h3>
-	<div class="container py-3 text-center">
+	<h3 class="text-center mt-3">Trip Reports</h3>
+	<div class="container py-2 text-center">
 		<div class="row justify-content-evenly align-items-start">
 			<div class="col-md-6 col-sm-12">
 				<a class="card-links" href={allTripReports[0].url}>
@@ -121,7 +117,7 @@ const allPoetry = await Astro.glob("../pages/poetry/*.md");
 							class="card-img-top"
 							alt="Sneffel's N. Buttress"
 						/>
-						<div class="card-body">
+						<div class="card-body py-2">
 							<h5 class="card-title">
 								{allTripReports[0].frontmatter.title}
 							</h5>
@@ -137,7 +133,7 @@ const allPoetry = await Astro.glob("../pages/poetry/*.md");
 							class="card-img-top"
 							alt="Sneffel's N. Buttress"
 						/>
-						<div class="card-body">
+						<div class="card-body py-2">
 							<h5 class="card-title">
 								{allTripReports[1].frontmatter.title}
 							</h5>
@@ -148,12 +144,12 @@ const allPoetry = await Astro.glob("../pages/poetry/*.md");
 		</div>
 	</div>
 	<!-- Poetry Block -->
-	<h3 class="text-center my-3">Poetry</h3>
 	<div class="purple container py-3 text-center">
+		<h3 class="text-center mb-3">Poetry</h3>
 		<div class="row justify-content-evenly align-items-start">
 			<div class="col-md-6 col-sm-12">
 				<a class="card-links" href={allPoetry[0].url}>
-					<div class="card card border-0 mx-auto indexCards">
+					<div class="card card border-0 mx-auto mb-2 indexCards">
 						<img
 							src={allPoetry[0].frontmatter.image.url}
 							class="card-img-top"
@@ -178,6 +174,28 @@ const allPoetry = await Astro.glob("../pages/poetry/*.md");
 						<div class="card-body">
 							<h5 class="card-title">
 								{allPoetry[2].frontmatter.title}
+							</h5>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- TR Block -->
+	<h3 class="text-center mt-3">My Journey Through Life</h3>
+	<div class="container py-2 text-center">
+		<div class="row justify-content-evenly align-items-start">
+			<div class="col-md-6 col-sm-12">
+				<a class="card-links" href={allAutoBio[0].url}>
+					<div class="card card border-0 mx-auto indexCards">
+						<img
+							src={allAutoBio[0].frontmatter.image.url}
+							class="card-img-top"
+							alt="Sneffel's N. Buttress"
+						/>
+						<div class="card-body py-2">
+							<h5 class="card-title">
+								{allAutoBio[0].frontmatter.title}
 							</h5>
 						</div>
 					</div>

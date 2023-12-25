@@ -2,12 +2,12 @@
 layout: ../../layouts/AutoBioLayout.astro
 title: "2023 - Self-Love and Discipline"
 pubDate: 2023-12-24
-# image:
-#     url: 'https://i.imgur.com/1w991EH.png'
-#     alt: "Square Peg"
+image:
+    url: 'https://i.imgur.com/sf6nHCp.jpg'
+    alt: "Look Back"
 tags: ["mental health", "blog", "personal"]
 ---
-Another year has come and gone, rich in every flavor that life has to offer. Much like a box of Bott's Every Flavor Beans, I enjoyed some more than others, but all were necessary aspects of a full life.\
+Wowza, another year already? 2023 was rich in every flavor that life has to offer, and much like a box of Bott's Every Flavor Beans, I enjoyed some more than others. But every flavor, good and bad, must be savored to fully experience the spectrum of life.\
 \
 As with every New Years, I set a couple of themes to guide the year's course. This year, they were twofold: self-love and discipline.\
 When I first set these, I thought they meant that I'd be training hard and smashing PRs all year, and to this end, I got a strong start. I began hitting the Manitou incline every week, worked myself to the bone with daily training, and bagged my first two winter summits. Yet by February, my body was already on the brink of collapse. I made an ill-fated attempt of Y-Couloir on Pikes Peak, and by the end, my knees barked at every step, no matter how much ibuprofen I stuffed down my throat.\
@@ -15,10 +15,14 @@ When I first set these, I thought they meant that I'd be training hard and smash
 Regardless, I kept pushing, ever demanding more of my body. While I did manage to summit several more mountains, I was ultimately failing in my themes. Not only did I lack the self-love to pull over and rest, but also the discipline to do so. "Discipline is pushing through the pain", I told myself over and over, with no shortage of "who's gonna carry the boats" running through my mind.\
 \
 This pattern would finally break when, in June, I was invited to join a 2024 Denali Expedition. It was an offer I could not refuse, yet I knew if I kept pushing at this rate, my body wouldn’t even hold up through training, much less a month on North America's tallest mountain. So at last, I channeled my discipline into hitting the brakes and forming healthy routines. I cancelled all my big plans, found a physical therapist, and took two months off to focus on my diet and stretching.\
-But in the absence of those adventures that have long kept me distracted from myself, my self-love took a nose-dive. Afterall, how could I love such a damaged and weak shell - this fragment of who I wanted to be?\ 
-It was in this lull that I realized that my adventures were not actually making me any happier or more fulfilled. They just diverted the pain to a physical manifestation, and without them, I found myself dipping into old vices. This discovery has stuck with me ever since, and for the remainder of the year, I must admit that I have struggled with self-love, and often contemplated giving up on the theme entirely.\
+In the absence of those adventures that have long kept me distracted from myself, my self-love took a nose-dive.\
+My goals likewise fell into oblivion. I had just taken the big step to live out of my car for the summer and guide full time. All of a sudden, all of these plans collapsed, and I was back living with my parents.\
+For a long while, I wondered how I was supposed to love such a damaged and weak shell - this fragment of who I wanted to be.\ 
+Yet this lull came as a blessing in disguise, as it was in this time that I realized that my adventures were not actually making me any happier or more fulfilled. They merely diverted the pain to a physical manifestation, and without them, I found myself dipping into old vices. This discovery has stuck with me ever since, and for the remainder of the year, I must admit that I have struggled with self-love, and often contemplated giving up on the theme entirely.\
 \
-This is where a third theme crops up: learning to deal with and grow from failure. On three occasions this year, I failed a big alpine ascent of a 14er. Those attempts were Y-Couloir on Pikes, N. Buttress on Sneffels, and Split Couloir on Split.\ 
+This is where a third theme crops up: learning to deal with and grow from failure.\
+\
+On three occasions this year, I failed a big alpine ascent of a 14er. Those attempts were Y-Couloir on Pikes, N. Buttress on Sneffels, and Split Couloir on Split.\ 
 In the first, I learned that I must rest and recover to perform at my best. If I'm already limping to the trailhead, it's time to turn around and rest a while longer.\
 In the second, I learned the cost of poor preparation. I also learned to temper my expectations and to accept any outcome.\
 In the third, I learned that I can always get stronger and faster. Even at my best, there is always further to improve.\

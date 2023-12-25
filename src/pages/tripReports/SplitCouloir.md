@@ -4,7 +4,7 @@ title: "Split Couloir"
 pubDate: 2023-11-25
 blurb: Attempting a classic.
 image:
-    url: "https://i.imgur.com/pXZ9QrQ.jpg"
+    url: "https://i.imgur.com/517mx6t.jpg"
     alt: "Split East Face"
 tags: ["hiking", "mountaineering", "alpinism", "california", "blog", "trip report"]
 ---

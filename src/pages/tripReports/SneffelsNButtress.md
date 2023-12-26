@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/TripReportLayout.astro
-title: "Sneffel's North Buttress"
+title: "Sneffels's North Buttress"
 pubDate: 2023-09-17
 blurb: My first attempt of Sneffels's North Buttress, my would-be 14er finisher.
 image:

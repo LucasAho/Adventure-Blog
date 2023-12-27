@@ -23,7 +23,7 @@ With this mindset in place, the focus of this climb was to push the limit, and I
 There isn't a ton of information about Split Couloir. It was only recently uploaded to Mountain Project and is most well known as one of Chris Davenport's fifty classic ski descents of North America. Despite its obscurity, it is as picturesque as a line gets, running between the twin summits that give Split Mountain its namesake. \
 In a normal year, only the first two pitches of ice come in, with the rest as a snow climb. At the beginning of November though, reports began rolling in: after a record breaking snow year and its subsequent melt off, the entire couloir goes.\
 \
-As far as established beta goes, we knew this: \ 
+As far as established beta goes, we knew this:\
 The first two pitches are the crux. The first is 30m of WI3 and a stretch of easy snow.\
 The second pitch forks off into three options: an ice chimney, a WI4 smear, or a 5.easy mixed line.\
 The remainder of the couloir is a continuous WI2, ending in a 3rd/4th class scramble to the summit at 14,064.\

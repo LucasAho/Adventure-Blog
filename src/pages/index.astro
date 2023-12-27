@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-
+import Carousel from "../components/Carousel.astro";
 const pageTitle = "Lucas Asher";
 const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 const allPoetry = await Astro.glob("../pages/poetry/*.md");
@@ -12,98 +12,7 @@ const allAutoBio = await Astro.glob("../pages/autobio/*.md");
 	<div class="purple container pt-1 pb-3">
 		<h1 class="text-center mt-0 mb-1">{pageTitle}</h1>
 		<h5 class="text-center mb-3">Author, mountaineer, and web developer</h5>
-		<div
-			id="image-carousel"
-			class="carousel slide mx-auto carousel-sizing"
-			data-bs-ride="carousel"
-		>
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="900">
-					<img
-						src="https://i.imgur.com/wn6Bybp.jpg"
-						class="d-block w-100"
-						alt="Mt. Whitney Summit"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/fMaEMnP.jpg"
-						class="d-block w-100"
-						alt="Sunlight Ridge"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/HXfhNf1.jpg"
-						class="d-block w-100"
-						alt="Shavano Sunrise"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/dxBPATM.jpg"
-						class="d-block w-100"
-						alt="Mt. Shasta Sunrise"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/JOybGyh.jpg"
-						class="d-block w-100"
-						alt="Mt. Russel Sunrise"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/dtWfWRr.jpg"
-						class="d-block w-100"
-						alt="Maroon Bells Landscape"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/AHRzE7A.jpg"
-						class="d-block w-100"
-						alt="Little Bear Ridge"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/EY0vSi8.jpg"
-						class="d-block w-100"
-						alt="Maroon Bells Sunrise"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/lWu1eXC.jpg"
-						class="d-block w-100"
-						alt="Little Bear Catwalk"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/nHXVUIw.jpg"
-						class="d-block w-100"
-						alt="Mt. Langely Summit"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/0bgrcUp.jpg"
-						class="d-block w-100"
-						alt="Split Couloir Pitch One"
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://i.imgur.com/Sx5qxC8.jpg"
-						class="d-block w-100"
-						alt="Crestone N. Buttress"
-					/>
-				</div>
-			</div>
-		</div>
+		<Carousel />
 	</div>
 	<!-- TR Block -->
 	<h3 class="text-center mt-3">Trip Reports</h3>
@@ -208,17 +117,11 @@ const allAutoBio = await Astro.glob("../pages/autobio/*.md");
 	.card-links {
 		text-decoration: none;
 	}
-	.carousel-sizing {
-		width: 60%;
-	}
 	.indexCards {
 		width: 100%;
 	}
 
 	@media screen and (max-width: 768px) {
-		.carousel-sizing {
-			width: 100%;
-		}
 		.tripReportCards {
 			width: 100%;
 		}

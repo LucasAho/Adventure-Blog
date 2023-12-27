@@ -49,13 +49,6 @@ const carouselIMGs = [
         alt: "Crestone N. Buttress",
     },
 ];
-//         <div class="carousel-item">
-//             <img
-//                 src=""
-//                 class="d-block w-100"
-//                 alt=""
-//             />
-//         </div>
 ---
 
 <div
@@ -71,7 +64,7 @@ const carouselIMGs = [
                         <div class="carousel-item">
                             <img
                                 src={img.src}
-                                class="d-block w-100"
+                                class="d-block w-100 rounded-images"
                                 alt={img.alt}
                             />
                         </div>
@@ -82,7 +75,7 @@ const carouselIMGs = [
                         >
                             <img
                                 src={img.src}
-                                class="d-block w-100"
+                                class="d-block w-100 rounded-images"
                                 alt={img.alt}
                             />
                         </div>
@@ -120,6 +113,9 @@ const carouselIMGs = [
     }
     .carousel-sizing {
         width: 65%;
+    }
+    .rounded-images {
+        border-radius: 2%;
     }
     @media screen and (max-width: 768px) {
         .carousel-sizing {

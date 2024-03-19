@@ -6,7 +6,7 @@ blurb: Success and defeat on Oregon's high point
 image:
     url: "https://i.imgur.com/Xvi3VLY.jpeg"
     alt: "Mt. Hood"
-tags: ["hiking", "mountaineering", "alpinism", "PNW", "blog", "trip report"]
+tags: ["hiking", "mountaineering", "alpinism", "PNW", "blog", "trip reports"]
 ---
 ## A Mixed Bag
 My ascent of Mt. Hood turned out to be a mixed bag. So high its highs, and so low its lows; despite reaching the summit, I do not know if I can call it a success.\
@@ -120,14 +120,14 @@ Once again, I found myself enraptured by the mountain. As a Colorado climber, I 
         <img
             src=https://i.imgur.com/aBMYhmu.jpg
             class='full-pics'
-            alt="The Full Moon"
+            alt="Group Near Fumarole"
             />
     </div>
     <div class="col-md-6 col-sm-12">
         <img
             src=https://i.imgur.com/VQt75lR.jpg
             class='full-pics'
-            alt="The Full Moon"
+            alt="Gazing to the Oregon Wilderness"
             />
     </div>
 </div>

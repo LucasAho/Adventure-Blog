@@ -6,7 +6,7 @@ blurb: Attempting a classic.
 image:
     url: "https://i.imgur.com/517mx6t.jpg"
     alt: "Split East Face"
-tags: ["hiking", "mountaineering", "alpinism", "california", "blog", "trip report"]
+tags: ["hiking", "mountaineering", "alpinism", "california", "blog", "trip reports"]
 ---
 
 ## If you ain't bailin', you ain't tryin'

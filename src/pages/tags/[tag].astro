@@ -4,7 +4,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 export async function getStaticPaths() {
     const allTripReports = await Astro.glob("../tripReports/*.md");
     const allPoetry = await Astro.glob("../poetry/*.md");
-    const combinedPosts = [...allPoetry, ...allTripReports];
+    const allAutoBio = await Astro.glob("../autobio/*.md");
+    const combinedPosts = [...allPoetry, ...allTripReports, ...allAutoBio];
 
     const uniqueTags = [
         ...new Set(combinedPosts.map((post) => post.frontmatter.tags).flat()),
@@ -23,20 +24,54 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
+let formattedTag;
+let splitTag = tag.split(" ");
+for (let i = 0; i < splitTag.length; i++) {
+    splitTag[i] = splitTag[i][0].toUpperCase() + splitTag[i].substring(1);
+}
+formattedTag = splitTag.join(" ");
 ---
 
 <BaseLayout>
     <div class="container py-2" style="min-height:50rem">
-        <p>Posts tagged with {tag}</p>
-
-        <ul>
+        <h1 class="text-center">
+            {formattedTag}
+        </h1>
+        <div class="row justify-content-evenly align-items-start">
             {
                 posts.map((post) => (
-                    <li>
-                        <a href={post.url}>{post.frontmatter.title}</a>
-                    </li>
+                    <div class="col-md-6 col-sm-12">
+                        <a class="card-links" href={post.url}>
+                            <div class="card card border-0 mx-auto indexCards">
+                                <img
+                                    src={post.frontmatter.image.url}
+                                    class="card-img-top"
+                                    alt="Card Thumbnail"
+                                />
+                                <div class="card-body py-2">
+                                    <h5 class="card-title">
+                                        {post.frontmatter.title}
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 ))
             }
-        </ul>
+        </div>
     </div>
 </BaseLayout>
+<style>
+    .card-links {
+        text-decoration: none;
+    }
+    .indexCards {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        .tripReportCards {
+            width: 100%;
+        }
+    }
+</style>

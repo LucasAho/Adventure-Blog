@@ -5,7 +5,7 @@ pubDate: 2023-12-24
 image:
     url: 'https://i.imgur.com/sf6nHCp.jpg'
     alt: "Look Back"
-tags: ["mental health", "blog", "personal"]
+tags: ["blog", "auto-bio"]
 ---
 Wowza, another year already? 2023 was rich in every flavor that life has to offer, and much like a box of Bott's Every Flavor Beans, I enjoyed some more than others. But every flavor, good and bad, must be savored to fully experience the spectrum of life.\
 \

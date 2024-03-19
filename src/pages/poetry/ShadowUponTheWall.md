@@ -5,7 +5,7 @@ pubDate: 2022-01-11
 image:
     url: 'https://i.imgur.com/aDcPj53.jpg'
     alt: "In the Maze Stock"
-tags: ["poetry", "mental health", "blog"]
+tags: ["poetry", "blog"]
 ---
 Dance with the shadow upon the wall\
 Decay by the decade, resisting its call\

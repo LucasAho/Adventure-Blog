@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/PoetryLayout.astro
-title: "Dearest Diana"
+title: "The Mountain and the Moon"
 pubDate: 2024-03-24
 image:
     url: 'https://i.imgur.com/M3w4lkp.jpeg'
@@ -30,4 +30,4 @@ How high it has risen above the plain\
 Clambering forth, its final fumes drain\
 As it mounts a summit submerged in night\
 This errand an error, there is not to attain\
-Yet peaceful, it sleeps neath soft starlight
+Yet peaceful, it sleeps 'neath soft starlight

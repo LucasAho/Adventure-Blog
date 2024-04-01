@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CategoryNavBar from "../../components/CategoryNavBar.astro";
+
+const allBio = await Astro.glob("../../pages/autobio/*.md");
+---
+
+<BaseLayout>
+    <CategoryNavBar />
+    <div class="container py-2" style="min-height:100vh">
+        <ul>
+            {
+                allBio.map((post) => (
+                    <li>
+                        <a href={post.url}>{post.frontmatter.title}</a>
+                    </li>
+                ))
+            }
+        </ul>
+    </div>
+</BaseLayout>
+<style>
+    .categoryNavBar {
+        display: flex;
+    }
+</style>

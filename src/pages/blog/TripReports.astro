@@ -1,0 +1,150 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CategoryNavBar from "../../components/CategoryNavBar.astro";
+
+const allTripReports = await Astro.glob("../../pages/tripReports/*.md");
+
+const lowerRows = [];
+for (let i = 0; i < allTripReports.length; i++) {
+    lowerRows.push(allTripReports[i]);
+}
+---
+
+<BaseLayout>
+    <CategoryNavBar page="TR" />
+    <div class="blog-grid-container container mx-auto">
+        <div class="jumbo-card display-cards">
+            <a class="card-links" href={allTripReports[0].url}>
+                <div class="card card border-0">
+                    <img
+                        src={allTripReports[0].frontmatter.image.url}
+                        class="card-img-top jumbo-img"
+                        alt="Card Thumbnail"
+                    />
+                    <div class="img-overlay mb-2 px-3">
+                        <h4 class="card-title">
+                            {allTripReports[0].frontmatter.title}
+                        </h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="display-cards">
+            <a class="card-links" href={allTripReports[1].url}>
+                <div class="card border-0">
+                    <img
+                        src={allTripReports[1].frontmatter.image.url}
+                        class="card-img-top"
+                        alt="Card Thumbnail"
+                    />
+                    <div class="img-overlay mb-2 px-2">
+                        <h5 class="card-title pt-1">
+                            {allTripReports[1].frontmatter.title}
+                        </h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="display-cards">
+            <a class="card-links" href={allTripReports[2].url}>
+                <div class="card border-0">
+                    <img
+                        src={allTripReports[2].frontmatter.image.url}
+                        class="card-img-top"
+                        alt="Card Thumbnail"
+                    />
+                    <div class="img-overlay mb-2 px-2">
+                        <h5 class="card-title pt-1">
+                            {allTripReports[2].frontmatter.title}
+                        </h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="px-2 pb-1">
+            <h3>More Trip Reports</h3>
+            <strong>Content will be redundant until I post more reports</strong>
+        </div>
+        <div class="row">
+            {
+                lowerRows.map((post) => (
+                    <div class="col-md-4 col-sm-12">
+                        <a class="card-links" href={post.url}>
+                            <div class="card card border-0 mx-auto indexCards">
+                                <img
+                                    src={post.frontmatter.image.url}
+                                    class="card-img-top"
+                                    alt="Card Thumbnail"
+                                />
+                                <div class="card-body py-2">
+                                    <h5 class="card-title pt-1">
+                                        {post.frontmatter.title}
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</BaseLayout>
+
+<style>
+    .blog-grid-container {
+        margin: 10px 4rem 0px 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+    }
+    .display-cards {
+        position: relative;
+    }
+    .jumbo-card {
+        grid-column: span 2;
+        grid-row: span 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .jumbo-card > a {
+        flex-grow: 1;
+    }
+    .card-links {
+        text-decoration: none;
+    }
+    .img-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgba(29, 106, 154, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        /* transition effect. not necessary */
+        transition:
+            opacity 0.2s,
+            visibility 0.2s;
+    }
+    .display-cards:hover .img-overlay {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    @media screen and (max-width: 768px) {
+        .blog-grid-container {
+            /* margin: 10px 4rem 0px 4rem; */
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .img-overlay {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+</style>

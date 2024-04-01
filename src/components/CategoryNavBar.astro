@@ -1,0 +1,34 @@
+---
+const { page } = Astro.props;
+---
+
+<div class="categoryNavBar mt-2">
+    <a href="/blog/">All</a>
+    <a href="/blog/TripReports">Trip Reports</a>
+    <a href="/blog/Poetry">Poetry</a>
+    <a href="/blog/Auto-Bio">Auto-Bio</a>
+</div>
+<style>
+    .categoryNavBar {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+    .categoryNavBar > a {
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #355691;
+        position: relative;
+    }
+    .categoryNavBar > a:hover:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 2px;
+        background: #355691;
+        transition: all 0.3s ease-in-out;
+        opacity: 1;
+        width: 80%;
+    }
+</style>

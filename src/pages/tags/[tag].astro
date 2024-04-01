@@ -30,6 +30,7 @@ for (let i = 0; i < splitTag.length; i++) {
     splitTag[i] = splitTag[i][0].toUpperCase() + splitTag[i].substring(1);
 }
 formattedTag = splitTag.join(" ");
+if (formattedTag === "Auto-bio") formattedTag = "Auto-Biographical";
 ---
 
 <BaseLayout>

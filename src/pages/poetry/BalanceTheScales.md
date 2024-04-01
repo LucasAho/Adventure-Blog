@@ -3,7 +3,7 @@ layout: ../../layouts/PoetryLayout.astro
 title: "Balance the Scales"
 pubDate: 2023-03-09
 image:
-    url: 'https://i.imgur.com/BnhGs3j.png'
+    url: 'https://i.imgur.com/7jfiQCl.jpg'
     alt: "Balance the Scales"
 tags: ["poetry", "mythology", "blog"]
 ---

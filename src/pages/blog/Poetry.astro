@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import CategoryNavBar from "../../components/CategoryNavBar.astro";
+import "./blog-styles.css";
 
 const allPoetry = await Astro.glob("../../pages/poetry/*.md");
 
@@ -89,58 +90,3 @@ for (let i = 3; i < allPoetry.length; i++) {
         </div>
     </div>
 </BaseLayout>
-<style>
-    .blog-grid-container {
-        margin: 10px 4rem 0px 4rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 5px;
-    }
-    .display-cards {
-        position: relative;
-    }
-    .jumbo-card {
-        grid-column: span 2;
-        grid-row: span 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .jumbo-card > a {
-        flex-grow: 1;
-    }
-    .card-links {
-        text-decoration: none;
-    }
-    .img-overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background: #bbbbbb;
-        color: #fff;
-        visibility: hidden;
-        opacity: 0;
-        /* transition effect. not necessary */
-        transition:
-            opacity 0.2s,
-            visibility 0.2s;
-    }
-    .display-cards:hover .img-overlay {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    @media screen and (max-width: 768px) {
-        .blog-grid-container {
-            /* margin: 10px 4rem 0px 4rem; */
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-        .img-overlay {
-            visibility: visible;
-            opacity: 1;
-        }
-    }
-</style>

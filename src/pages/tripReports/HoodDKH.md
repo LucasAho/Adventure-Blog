@@ -4,7 +4,7 @@ title: "Mt. Hood and the Devil's Kitchen"
 pubDate: 2024-02-23
 blurb: Success and defeat on Oregon's high point
 image:
-    url: "https://i.imgur.com/Xvi3VLY.jpeg"
+    url: "https://i.imgur.com/fkpdZFA.jpeg"
     alt: "Mt. Hood"
 tags: ["hiking", "mountaineering", "alpinism", "PNW", "blog", "trip reports"]
 ---

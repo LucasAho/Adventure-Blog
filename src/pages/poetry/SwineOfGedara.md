@@ -2,6 +2,7 @@
 layout: ../../layouts/PoetryLayout.astro
 title: "Swine of Gedara"
 pubDate: 2023-03-02
+genre: Poetry
 image:
     url: 'https://i.imgur.com/eaqSvAM.jpg'
     alt: "Skeletons at the Fire"

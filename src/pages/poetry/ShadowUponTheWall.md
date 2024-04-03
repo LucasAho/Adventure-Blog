@@ -2,6 +2,7 @@
 layout: ../../layouts/PoetryLayout.astro
 title: "Shadow Upon the Wall"
 pubDate: 2022-01-11
+genre: Poetry
 image:
     url: 'https://i.imgur.com/aDcPj53.jpg'
     alt: "In the Maze Stock"

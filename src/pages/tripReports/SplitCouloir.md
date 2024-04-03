@@ -3,6 +3,7 @@ layout: ../../layouts/TripReportLayout.astro
 title: "Split Couloir"
 pubDate: 2023-11-25
 blurb: Attempting a classic.
+genre: Trip Report
 image:
     url: "https://i.imgur.com/517mx6t.jpg"
     alt: "Split East Face"

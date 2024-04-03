@@ -2,6 +2,7 @@
 layout: ../../layouts/PoetryLayout.astro
 title: "The Mountain and the Moon"
 pubDate: 2024-03-24
+genre: Poetry
 image:
     url: 'https://i.imgur.com/M3w4lkp.jpeg'
     alt: "A Night Sky"

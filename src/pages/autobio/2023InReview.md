@@ -2,6 +2,7 @@
 layout: ../../layouts/AutoBioLayout.astro
 title: "2023 - Self Love and Discipline"
 pubDate: 2023-12-24
+genre: Auto-Bio
 image:
     url: 'https://i.imgur.com/sf6nHCp.jpg'
     alt: "Look Back"

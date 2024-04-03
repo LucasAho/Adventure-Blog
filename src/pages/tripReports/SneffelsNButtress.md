@@ -3,6 +3,7 @@ layout: ../../layouts/TripReportLayout.astro
 title: "Sneffels's North Buttress"
 pubDate: 2023-09-17
 blurb: My first attempt of Sneffels's North Buttress, my would-be 14er finisher.
+genre: Trip Report
 image:
     url: "https://i.imgur.com/DHKzuWy.jpg"
     alt: "North Buttress from 13,000'"

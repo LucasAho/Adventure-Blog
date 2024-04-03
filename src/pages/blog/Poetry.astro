@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import CategoryNavBar from "../../components/CategoryNavBar.astro";
+import BlogMoreSection from "../../components/BlogMoreSection.astro";
 import "./blog-styles.css";
 
 const allPoetry = await Astro.glob("../../pages/poetry/*.md");
@@ -65,28 +66,7 @@ for (let i = 3; i < allPoetry.length; i++) {
     </div>
 
     <div class="container mt-3">
-        <h3>More Poetry</h3>
-        <div class="row">
-            {
-                lowerRows.map((post) => (
-                    <div class="col-md-4 col-sm-12">
-                        <a class="card-links" href={post.url}>
-                            <div class="card card border-0 mx-auto indexCards">
-                                <img
-                                    src={post.frontmatter.image.url}
-                                    class="card-img-top"
-                                    alt="Card Thumbnail"
-                                />
-                                <div class="card-body py-2">
-                                    <h5 class="card-title">
-                                        {post.frontmatter.title}
-                                    </h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                ))
-            }
-        </div>
+        <h3>Poetry</h3>
+        <BlogMoreSection content={allPoetry} />
     </div>
 </BaseLayout>

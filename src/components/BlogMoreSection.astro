@@ -1,0 +1,37 @@
+---
+const { content } = Astro.props;
+const lowerRows = [];
+for (let i = 3; i < content.length; i++) {
+    lowerRows.push(content[i]);
+}
+---
+
+<div class="row">
+    {
+        lowerRows.map((post) => (
+            <div class="col-md-4 col-sm-12 mb-1">
+                <a class="card-links" href={post.url}>
+                    <div class="card card border-0 mx-auto indexCards">
+                        <img
+                            src={post.frontmatter.image.url}
+                            class="card-img-top"
+                            alt="Card Thumbnail"
+                        />
+                        <div class="card-body card-info-box py-2">
+                            <h5 class="card-title mb-0">
+                                {post.frontmatter.title}
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        ))
+    }
+</div>
+<style>
+    .card-info-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>

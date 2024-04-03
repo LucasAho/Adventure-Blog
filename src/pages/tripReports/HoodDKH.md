@@ -3,6 +3,7 @@ layout: ../../layouts/TripReportLayout.astro
 title: "Mt. Hood and the Devil's Kitchen"
 pubDate: 2024-02-23
 blurb: Success and defeat on Oregon's high point
+genre: Trip Report
 image:
     url: "https://i.imgur.com/fkpdZFA.jpeg"
     alt: "Mt. Hood"

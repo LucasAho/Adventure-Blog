@@ -2,6 +2,7 @@
 layout: ../../layouts/PoetryLayout.astro
 title: "Square Peg"
 pubDate: 2022-01-29
+genre: Poetry
 image:
     url: 'https://i.imgur.com/lt04ooo.png'
     alt: "A Square Peg"

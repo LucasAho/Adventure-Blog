@@ -6,7 +6,18 @@ const { frontmatter } = Astro.props;
 
 <BaseLayout>
     <div class="container py-2 text-center">
-        <div class="row justify-content-evenly align-items-center">
+        <div class="poetry-header">
+            <div>
+                <h1>{frontmatter.title}</h1>
+                <p>Written {frontmatter.pubDate.slice(0, 10)}</p>
+            </div>
+            <img
+                src={frontmatter.image.url}
+                alt={frontmatter.image.alt}
+                class="poetry-image"
+            />
+        </div>
+        <!-- <div class="row justify-content-evenly align-items-center">
             <div class="col-md-6 col-sm-12">
                 <h1>{frontmatter.title}</h1>
                 <p>Written {frontmatter.pubDate.slice(0, 10)}</p>
@@ -19,7 +30,7 @@ const { frontmatter } = Astro.props;
                     alt={frontmatter.image.alt}
                 />
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="container">
         <slot />
@@ -51,5 +62,15 @@ const { frontmatter } = Astro.props;
         padding: 0.5em 1em;
         font-size: 1.15em;
         background-color: #f8fcfd;
+    }
+    .poetry-image {
+        float: right;
+        width: 25%;
+    }
+
+    .poetry-header {
+        display: flex;
+        gap: 30px;
+        align-items: center;
     }
 </style>

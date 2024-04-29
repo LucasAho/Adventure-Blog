@@ -5,6 +5,13 @@ const pageTitle = "Lucas Asher";
 const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 const allPoetry = await Astro.glob("../pages/poetry/*.md");
 const allAutoBio = await Astro.glob("../pages/autobio/*.md");
+
+allPoetry.sort(function (a, b) {
+	var c = new Date(a.frontmatter.pubDate);
+	var d = new Date(b.frontmatter.pubDate);
+	return c - d;
+});
+allPoetry.reverse();
 ---
 
 <BaseLayout>
@@ -57,8 +64,24 @@ const allAutoBio = await Astro.glob("../pages/autobio/*.md");
 		<h3 class="text-center mb-3">Poetry</h3>
 		<div class="row justify-content-evenly align-items-start">
 			<div class="col-md-6 col-sm-12">
-				<a class="card-links" href={allPoetry[1].url}>
+				<a class="card-links" href={allPoetry[0].url}>
 					<div class="card card border-0 mx-auto mb-2 indexCards">
+						<img
+							src={allPoetry[0].frontmatter.image.url}
+							class="card-img-top"
+							alt="Post Thumbnail"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">
+								{allPoetry[0].frontmatter.title}
+							</h5>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<a class="card-links" href={allPoetry[1].url}>
+					<div class="card border-0 mx-auto smallIndexCards">
 						<img
 							src={allPoetry[1].frontmatter.image.url}
 							class="card-img-top"
@@ -67,22 +90,6 @@ const allAutoBio = await Astro.glob("../pages/autobio/*.md");
 						<div class="card-body">
 							<h5 class="card-title">
 								{allPoetry[1].frontmatter.title}
-							</h5>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<a class="card-links" href={allPoetry[2].url}>
-					<div class="card border-0 mx-auto smallIndexCards">
-						<img
-							src={allPoetry[2].frontmatter.image.url}
-							class="card-img-top"
-							alt="Post Thumbnail"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">
-								{allPoetry[2].frontmatter.title}
 							</h5>
 						</div>
 					</div>

@@ -5,7 +5,12 @@ import BlogMoreSection from "../../components/BlogMoreSection.astro";
 import "./blog-styles.css";
 
 const allPoetry = await Astro.glob("../../pages/poetry/*.md");
-
+allPoetry.sort(function (a, b) {
+    var c = new Date(a.frontmatter.pubDate);
+    var d = new Date(b.frontmatter.pubDate);
+    return c - d;
+});
+allPoetry.reverse();
 const lowerRows = [];
 for (let i = 3; i < allPoetry.length; i++) {
     lowerRows.push(allPoetry[i]);

@@ -318,32 +318,32 @@ As we popped out onto the summit plateau and switched back over to skis, another
 </div>
 
 ## Descent
-The rest of this report will pass in a blur, as it did in my head. It is the unfortunate reality of these long and epic climbs: they are so exhausting that one’s mind stops recording part way through, and the story can be only half told.
 
-<div class="container mx-0 mb-3">
-    <div class="row align-items-center">
-        <div class="col-md-4 col-sm-12">
-            <img
-                src=https://i.imgur.com/VjLu6Bv.jpg
-                class='vert-pics'
-                alt="Waiting for the clouds to clear"
-            />
-        </div>
-        <div class="col-md-8 col-sm-12" style="padding-left: 0">
-            <p>
-            We unroped, snacked, and took a moment to drink in our victory. I then prepared to sail off the summit cone. The slope angle seemed perfect for a novice skier, and fantasies swirled in my head of sailing down and across the plateau in one fell swoop.
-            </p>
-            <p>
-            At last, a window through the clouds appeared. Plateau in sight, I asked Matt to film me, and flew off down the slope for some epic turns. Except, on the first one, I fell and lost all momentum. I barely made it 100ft before I had to re-equip the skins. Apparently, my skiing still needs some work.
-            </p>
-            <p> 
-            As we narrowed in on a line down the Roman Headwall, the white out swallowed us in totality. Unable to see more than a couple yards ahead, we had no way of knowing if our next step would take us out onto a cornice or into a crevasse. As such, we had to rope up once more, swinging 70m pitches all the way down the route. Ultimately, we would miss our turn in the low visibility, and we very nearly ended up on the wrong side of the mountain. During those moments of uncertainty, worried that we had descended the wrong aspect of the mountain, my spirit faltered once more. I lacked the strength to pull myself back up over the Colfax saddle.
-            </p>
-            <p>
-            Just as I began to lose faith in our safe descent, the clouds released us, and I spotted safe passage under a band of cliffs to rejoin the standard route. 
-            </p>
-        </div>
-    </div>
+
+<div>
+<p>
+The rest of this report will pass in a blur, as it did in my head. It is the unfortunate reality of these long and epic climbs: they are so exhausting that one’s mind stops recording part way through, and the story can be only half told.
+</p>
+    <img
+        src=https://i.imgur.com/VjLu6Bv.jpg
+        class="left-image"
+        alt="Waiting for the clouds to clear"
+    />
+<p>
+We unroped, snacked, and took a moment to drink in our victory. I then prepared to sail off the summit cone. The slope angle seemed perfect for a novice skier, and fantasies swirled in my head of sailing down and across the plateau in one fell swoop.
+</p>
+<p>
+At last, a window through the clouds appeared. Plateau in sight, I asked Matt to film me, and flew off down the slope for some epic turns. Except, on the first one, I fell and lost all momentum. I barely made it 100ft before I had to re-equip the skins. Apparently, my skiing still needs some work.
+</p>
+<p>
+As we narrowed in on a line down the Roman Headwall, the white out swallowed us in totality. Unable to see more than a couple yards ahead, we had no way of knowing if our next step would take us out onto a cornice or into a crevasse. As such, we had to rope up once more, swinging 70m pitches all the way down the route.
+</p>
+<p>
+Ultimately, we would miss our turn in the low visibility, and we very nearly ended up on the wrong side of the mountain. During those moments of uncertainty, worried that we had descended the wrong aspect of the mountain, my spirit faltered once more. I lacked the strength to pull myself back up over the Colfax saddle.
+</p>
+<p>
+Just as I began to lose faith in our safe descent, the clouds released us, and I spotted safe passage under a band of cliffs to rejoin the standard route.
+</p>
 </div>
 
 At long last, the camp came into view, but at this point, there was little joy left in the act. Each step ached, and my mind thought only of the ending.
@@ -402,6 +402,11 @@ The mountains are how I tell my story. How I assert my will to live. The mountai
 
 
 <style type="text/css">
+    .left-image {
+        float: left;
+        width: 30%;
+        margin: 5px 15px 5px 0px;
+    }
     .vert-pics {
         width: 80%;
     }
@@ -431,11 +436,12 @@ The mountains are how I tell my story. How I assert my will to live. The mountai
             margin-left: auto;
             margin-right: auto;
         }
-        #fork-in-the-road {
+        .mostly-full-pics {
             width: 100%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+        }
+        .left-image {
+            float: none;
+            width: 100%
         }
     }
 </style>

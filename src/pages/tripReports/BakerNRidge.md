@@ -25,7 +25,7 @@ I bought my plane tickets at the end of March. The Denali trip had just fallen t
     />
 </div>
 
-*The big 3 WA Alpine Lines*
+*The big 3 WA alpine lines*
 
 However, as the date neared, it was evident that Liberty Ridge was not to happen. According to ranger reports, the route was already out - my only shot would've been a month earlier. So I moved one listing up on that front page - the North Ridge of Mt. Baker.
 
@@ -109,20 +109,20 @@ Discussing matters of life and death, love and ambition, we soon found ourselves
 We arrived around 17:00 - time enough to cook decent meals, play a game of chess, and enjoy the majesty of that mist laden forest. In the company of a climber such as Matt, one finds a brother, and there is not enough time in the world to grow tired of conversation. Such is the bond of the mountain -  each alpinist has been privy to its ineffable secret, which though unspoken, suffuses every word in those hours before a climb. That bond would be invaluable in the coming days, as Matt and I relied time and again on the other's energy to push through to the summit.\
 Settling into our mattresses in the back of Stanley, Scott's Honda Pilot, we enjoyed a final night of sleep and peace, and awoke to a lazy drizzle of rain.
 
-## Mist and Leisure
-<div class="container mx-0 mb-4">
+## A Gentle Start
+<div class="container mx-0 mb-2">
     <div class="row align-items-center justify-content-center">
-           <div class="col-md-6 col-sm-12 mx-auto">
+           <div class="col-md-6 col-sm-12 my-1 mx-auto">
          <img
                 src=https://i.imgur.com/JJaMn6R.jpeg
-                class='vert-pics'
+                class='full-vert-pics'
                 alt="Matt Loaded Up"
             />
     </div>
-    <div class="col-md-6 col-sm-12 mx-auto">
+    <div class="col-md-6 col-sm-12 my-1 mx-auto">
        <img
                 src=https://i.imgur.com/jBrtQuk.jpeg
-                class='vert-pics'
+                class='full-vert-pics'
                 alt="Magic Forest"
             />
     </div>
@@ -141,50 +141,49 @@ The rain, though light, was ceaseless, and covered the forest in a thick blanket
     />
 </div>
 
-Though I had traveled on glaciers before, I had never before seen open crevasses and ice falls. Suddenly I understood the power of the glacier - an overwhelming mixture of fear, respect, and certainty rushed into me. Truly, I was home.
+Although I had traveled on glaciers before, I had never before seen open crevasses and ice falls. Suddenly I understood the power of the glacier - an overwhelming mixture of fear, respect, and certainty rushed into me. Truly, I was home.
 
 Under no sort of time crunch, we stopped at the top of the rise for a rest and lazy lunch, around noon. We broke out the stove, intent on eating one of the extra Mountain House meals that Scott had given me. It was strange to take our time in such a manner, but we had the whole day to waste, and we were already nearly to camp. As I heated water to boil, I asked Matt to pull out the MH meal.\
 "I thought you had it?"\
 "Nah dude, I told you to grab it"\
 After a moment of silence, we both laughed, picturing that meal left in a nest of blankets in the back of the car. Nothing to do but continue on.
 
-<div class="container mx-0">
-    <div class="row align-items-center">
-        <div class="col-md-9 col-sm-12" style="padding-left: 0">
-            An hour later, we arrived at the Hogsback camp. It bustled with activity - a dozen 4-season, expedition style tents were laid out on snow platforms, with climbers wandering this way and that. It was a strange feeling - the snow shelters and heavy tents, the busy parties preparing for the weather window; it was as though a warp in reality had brought me to the slopes of Denali after all. 
-            <br/>
-            We spoke with one of the groups - this camp was lower than the standard at Black Butte, but evidently conditions up there had forced them to stake on lower ground. Matt and I considered following suit, but instead agreed to move up to 6,600' where the Coleman-Deming and North Ridge routes parted ways.
-            <br/>
-            We arrived on suitable ground at 14:00. Rocky flats poked out of the deep snow like molehills, offering a place to sort gear and cook. The slopes above us were low angle, so we had no risk of an avalanche sweeping our camp. And the knife blade that marked the Coleman Headwall (an adjacent route) and N Ridge were in sight, allowing us some insight into our next day.
-        </div>
-        <div class="col-md-3 col-sm-12 my-2">
-            <img
-                src=https://i.imgur.com/1Ns35FQ.jpg
-                class='vert-pics'
-                alt="The Lower Set of Tents at Hogsback"
-            />
-        </div>
-    </div>
+<div>
+    <img
+        src=https://i.imgur.com/1Ns35FQ.jpg
+        class='right-image'
+        alt="The Lower Set of Tents at Hogsback"
+    />
+    <p>
+        An hour later, we arrived at the Hogsback camp. It bustled with activity - a dozen 4-season, expedition style tents were laid out on snow platforms, with climbers wandering this way and that. It was a strange feeling - the snow shelters and heavy tents, the busy parties preparing for the weather window; it was as though a warp in reality had brought me to the slopes of Denali after all. 
+    </p>
+    <p>
+        We spoke with one of the groups - this camp was lower than the standard at Black Butte, but evidently conditions up there had forced them to stake on lower ground. Matt and I considered following suit, but instead agreed to move up to 6,600' where the Coleman-Deming and North Ridge routes parted ways.
+    </p>
+    <p>
+        We arrived on suitable ground at 14:00. Rocky flats poked out of the deep snow like molehills, offering a place to sort gear and cook. The slopes above us were low angle, so we had no risk of an avalanche sweeping our camp. And the knife blade that marked the Coleman Headwall (an adjacent route) and N Ridge were in sight, allowing us some insight into our next day.
+    </p>
 </div>
 
 Breaking out the bivy sack and thru-hiking tent, hilariously misplaced compared to the expedition tents below, we flattened out a wide platform and set to building a snow wall. Peeling off layers of the slab (a disconcerting sight in regards to avalanche danger) to use as blocks, we build high and thick in an effort to ward off the high winds that might assail our ultra-light gear. I felt as a child on a snow day, with all the time in the world to build my fort.\
 We prepared our bags and made dinner, enjoying marshmallows roasted over a white gas flame paired with slabs of dark chocolate. If only all mountaineering trips could be so leisurely.
 
-<div class="container mx-0 mb-4">
+<div class="container mx-0 mb-2">
     <div class="row align-items-center justify-content-center">
-           <div class="col-md-6 col-sm-12 mx-auto">
-         <img
+        <div class="col-md-6 col-sm-12 my-1 mx-auto">
+            <img
+                src=https://i.imgur.com/OPGHkUO.jpg
+                class='full-vert-pics'
+                alt="Mountain S'mores"
+            /> 
+        </div>
+        <div class="col-md-6 col-sm-12 my-1 mx-auto">
+            <img
                 src=https://i.imgur.com/NDOuyhc.jpg
-                class='vert-pics'
+                class='full-vert-pics'
                 alt="Thru-hikers in the Alpine"
             />
-    </div>
-    <div class="col-md-6 col-sm-12 mx-auto">
-       <img
-                src=https://i.imgur.com/OPGHkUO.jpg
-                class='vert-pics'
-                alt="Mountain S'mores"
-            />
+        </div>
     </div>
 </div>
 
@@ -208,21 +207,18 @@ At 04:00, first light greeted us and began to sweep away the white out. At last,
     />
 </div>
 
-<div class="container mx-0 mb-3">
-    <div class="row align-items-center">
-        <div class="col-md-4 col-sm-12">
-            <img
-                src=https://i.imgur.com/n3usCZx.jpeg
-                class='vert-pics'
-                alt="Matt the Hero"
-            />
-        </div>
-        <div class="col-md-8 col-sm-12" style="padding-left: 0">
-            Within the hour, the slope steepened too much for skis, and we stopped to switch over to crampons. Here, I made a grave mistake. I had plunged my skis into the snow, but not deep enough. One of them flopped over from a gust of wind, and as though in slow motion, began to roll and orient itself tip down. Both Matt and I tensed as though to lunge for it, but we were still tied together and unable to make quick movements. Time stood still for a heartbeat. Then the ski aligned with the slope, picked up speed, and descended into the night.
-            <br/>
-            The damage now done, I sat down to un-rope and throw on crampons, unhurried. But Matt, hero that he is, leapt to action. He charged down the slope, and returned 20 minutes later with my ski in tow. I must once again express how grateful I am to have this man on my team - I have met no other partner so selfless, and his action saved a tremendous amount of strain on my knees and hip, which would already be pushed well beyond their limits by the end of the day.
-        </div>
-    </div>
+<div>
+    <img
+        src=https://i.imgur.com/n3usCZx.jpeg
+        class='left-image'
+        alt="Matt the Hero"
+    />
+    <p>
+        Within the hour, the slope steepened too much for skis, and we stopped to switch over to crampons. Here, I made a grave mistake. I had plunged my skis into the snow, but not deep enough. One of them flopped over from a gust of wind, and as though in slow motion, began to roll and orient itself tip down. Both Matt and I tensed as though to lunge for it, but we were still tied together and unable to make quick movements. Time stood still for a heartbeat. Then the ski aligned with the slope, picked up speed, and descended into the night.
+    </p>
+    <p>
+        The damage now done, I sat down to un-rope and throw on crampons, unhurried. But Matt, hero that he is, leapt to action. He charged down the slope, and returned 20 minutes later with my ski in tow. I must once again express how grateful I am to have this man on my team - I have met no other partner so selfless, and his action saved a tremendous amount of strain on my knees and hip, which would already be pushed well beyond their limits by the end of the day.
+    </p>
 </div>
 
 Soon after, at 06:15, we crested a slope at 8,300', and the serac came into view at last. At its sight, all of our exhaustion melted away.\
@@ -236,28 +232,27 @@ Matt boasted of how he would climb directly up its center. It was, after all, no
     />
 </div>
 
-Not wanting to curb his enthusiasm, I withheld my own judgment. Should conditions allow, it would certainly be a pitch to remember. However, those lessons learned on Split Couloir were still fresh in my mind. Often, the alpinist must forego these aesthetic and challenging lines in favor of time, energy, and safety.\
+Not wanting to curb his enthusiasm, I withheld my own judgment. Should conditions allow, it would certainly be a pitch to remember, and I had no doubt in his capabilities. However, those lessons learned on Split Couloir were still fresh in my mind. Often, the alpinist must forego these aesthetic and challenging lines in favor of time, energy, and safety.\
 We still had a long way yet to climb though, and the ideal of those technical pitches invigorated us both as we drove our bodies ever upwards.
 
-<div class="container mx-0">
-    <div class="row align-items-center">
-        <div class="col-md-9 col-sm-12" style="padding-left: 0">
+<div>
+    <img
+        src=https://i.imgur.com/nHLkebb.jpg
+        class='right-image'
+        alt="Matt turning the corner beneath the serac"
+    />
+    <p>
         At 07:45, we came to our first open crevasse. It was a little thing, marked by two small holes in front of us, plunging into darkness, and a wave of rolling snow some 30ft to our left. Matt stepped easily across, fearing little since I was in a good position to arrest a fall. As I followed suit, I foolishly opened up my phone camera to record my first crossing, throwing off my balance and focus. I began to cross. That first step held, and then the second. But as I lifted for the third, my back foot punched through. I threw myself forward, and sprawled out on the far side, desperately scrambled away on all fours, lucky to have not been sucked in. And we continued on
-        <br/>
+    </p>
+    <p>
         By 08:45, we reached the foot of the serac. As Matt racked up for the climb, still intent on sending straight up the center, I gave it a few whacks with my tools. The ice came off in sheets - the only solid purchase to be found hid 3-4 inches behind a layer of rotten, wind-blasted rime.
-        <br/>
+    </p>
+    <p>
         Though easier, this pitch was far from disappointing. We got a full rope length of sweet sticks and good pro - some of the best ice climbing I have done in the alpine.
-        <br/>
+    </p>
+    <p>
         I topped out to join him and swung the lead. We had a long ways yet to climb.
-        </div>
-        <div class="col-md-3 col-sm-12 my-2">
-            <img
-                src=https://i.imgur.com/nHLkebb.jpg
-                class='vert-pics'
-                alt="Matt turning the corner beneath the serac"
-            />
-        </div>
-    </div>
+    </p>
 </div>
 
 ## Now THIS is Alpinism
@@ -280,23 +275,21 @@ Looking ahead, it seemed we had only one pitch of steep snow left.\
 "Take us to the top," Matt told me.\
 And I set off. 50ft up, I found myself beneath the steepest snow I had ever seen. It rose sharply above - I would wager for a 70º angle. Though slightly overwhelmed, I did as I had been doing. I plunged my ax. I kicked my foot. I breathed.
 
-<div class="container mx-0">
-    <div class="row align-items-center">
-        <div class="col-md-9 col-sm-12" style="padding-left: 0">
-            As I crested, I was assailed with an overwhelming view. A crevasse stretched out in front of me. To the left, it wrapped around the slope and out of sight, like a mighty fault in the Earth's crust. To the right, it wrapped back and down a thousand feet, all the way to the serac.
-            <br/>
-            For a moment, I froze. My inexperience hit me in the gut - the solution not yet instinctual. I called to Matt on the radio, warning him of an impending fall, though we were now a full 70m apart. The feeble makings of a snow bridge seemed to lie just ahead, and I crawled up to them. Again, I froze in shock. Beneath me, the crevasse plunged ever downwards, the bottom far out of sight. The "snow bridge" was no more than two thin cornices.
-            <br/>
-            I dropped a safe distance from the opening and put Matt on belay. 
-        </div>
-        <div class="col-md-3 col-sm-12 my-2">
-            <img
-                src=https://i.imgur.com/YLGBDfV.jpg
-                class='vert-pics'
-                alt="The big crevasse"
-            />
-        </div>
-    </div>
+<div>
+    <img
+        src=https://i.imgur.com/YLGBDfV.jpg
+        class='right-image'
+        alt="The big crevasse"
+    />
+    <p>
+        As I crested, I was assailed with an overwhelming view. A crevasse stretched out in front of me. To the left, it wrapped around the slope and out of sight, like a mighty fault in the Earth's crust. To the right, it wrapped back and down a thousand feet, all the way to the serac.
+    </p>
+    <p>
+        For a moment, I froze. My inexperience hit me in the gut - the solution not yet instinctual. I called to Matt on the radio, warning him of an impending fall, though we were now a full 70m apart. The feeble makings of a snow bridge seemed to lie just ahead, and I crawled up to them. Again, I froze in shock. Beneath me, the crevasse plunged ever downwards, the bottom far out of sight. The "snow bridge" was no more than two thin cornices.
+    </p>
+    <p>
+        I dropped a safe distance from the opening and put Matt on belay. 
+    </p>
 </div>
 
 As Matt climbed to join me, I thought up three options:
@@ -318,8 +311,6 @@ As we popped out onto the summit plateau and switched back over to skis, another
 </div>
 
 ## Descent
-
-
 <div>
 <p>
 The rest of this report will pass in a blur, as it did in my head. It is the unfortunate reality of these long and epic climbs: they are so exhausting that one’s mind stops recording part way through, and the story can be only half told.
@@ -368,21 +359,21 @@ At long last, the camp came into view, but at this point, there was little joy l
 
 *Matt bootpacks down the route after twisting his knee*
 
-<div class="container mx-0">
-    <div class="row align-items-center">
-        <div class="col-md-9 col-sm-12" style="padding-left: 0">
-            I donned my skis for the final time and practiced turns down the gentler slopes. Matt, too exhausted to bother, bootpacked the whole way. Somehow, so slow was my skiing, we kept pace with one another. 
-            <br/>
-            Along the way, he found a songbird, which he would name Jade, freezing upon the surface of the ice, unable to fly back to where it belonged. He would carry that bird all the way back to treeline, although she would eventually succumb to the cold. We left Jade to rest high in a tree, and hope only that her final moments were warm.
-        </div>
-        <div class="col-md-3 col-sm-12 my-2">
-            <img
-                src=https://i.imgur.com/qK1mSj2.jpg
-                class='vert-pics'
-                alt="Matt booting down"
-            />
-        </div>
-    </div>
+<div>
+    <img
+        src=https://i.imgur.com/qK1mSj2.jpg
+        class='right-image'
+        alt="Jade the Songbird"
+    />
+    <p>
+        I donned my skis for the final time and practiced turns down the gentler slopes. Matt, too exhausted to bother, bootpacked the whole way. Somehow, so slow was my skiing, we kept pace with one another. 
+    </p>
+    <p>
+        Along the way, he found a songbird, which he would name Jade, freezing upon the surface of the ice. We watched for several minutes as she tried time and again to lift off, only to be caught by the wind and slammed back down. Finally, she gave up, and Matt effortlessly plucked her up from certain doom.  
+    </p>
+    <p>
+        He would carry that bird all the way back to treeline, although she would eventually succumb to the cold. We left Jade to rest high in a tree, and hope only that her final moments were warm, thankful that we did not suffer the same fate.
+    </p>
 </div>
 
 Finally, at 19:45, nearly 18 hours after leaving, we collapsed at our camp. We had almost no food left - just some crumpled gluten free tortillas, crushed up Fritos, and a few packets of mustard and mayo. While I heated up snow to refill our water, Chef Matt would make me a fine gourmet meal. It is with absolutely no sarcasm that I say that those mustard/mayo covered Frito tortillas were the best thing I have ever eaten in the mountains. I hope I am never that hungry again. 
@@ -396,9 +387,9 @@ At 23:12, 22 hours after we had awoken, we stumbled into the now empty parking l
 In the weeks following, each time I’ve sat down to write this, I have grasped for an outstanding moral. A lesson to take away from this great journey and apply to the rest of my life, as I do with all my write-ups. Yet this time, I came away empty handed. To say that this has shaken me would be an understatement. This should be a great achievement, and yet I feel only that I have done as I ought.\
 Ultimately, this climb was the quintessence of alpinism. The brotherhood of two climbers united as one whole by a stretch of nylon. The delicious taste of low foods in high places. The unity of the self, pushing well beyond the illusion of limitation. And an unbreakable appreciation for life, knowable only by a brush with its fragility. 
 
-It is as the late Marc-André Leclerc said, “When you’re in the mountains […] it’s like all of the superficialities of life just sort of evaporate. […] You appreciate everything so much. […] It’s kinda funny, the actual achievement doesn’t really change your life like you think it might, when you’re buildin’ up to it, but what you’re left with is the journey that got you to that point, […] you’re left with so much more of a story. […]  And that’s what I find is the most important.”
+It is as the late Marc-André Leclerc said, “When you’re in the mountains […] it’s like all of the superficialities of life just sort of evaporate. […] You appreciate everything so much. […] It’s kinda funny, the actual achievement doesn’t really change your life like you think it might when you’re buildin’ up to it. But what you’re left with is the journey that got you to that point, […] you’re left with so much more of a story. […] That’s what I find is the most important.”
 
-The mountains are how I tell my story. How I assert my will to live. The mountains are my home. Yet perhaps, for a time, I will enjoy good food, friendship, and love. Warm places and sunshine. And when I am ready to return, those hills will welcome me with open arms. 
+The mountains are how I tell my story. How I assert my will to live. The mountains are my home. Yet perhaps, for a time, I will enjoy good food and friendship in warm places and sunshine. And when I am ready to return, those hills will welcome me with open arms. 
 
 
 <style type="text/css">
@@ -407,8 +398,18 @@ The mountains are how I tell my story. How I assert my will to live. The mountai
         width: 30%;
         margin: 5px 15px 5px 0px;
     }
+    .right-image {
+        float: right;
+        width: 30%;
+        margin: 5px 0px 5px 15px;
+    }
     .vert-pics {
         width: 80%;
+    }
+    .double-verts {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
     .full-vert-pics {
         width: 100%;
@@ -438,8 +439,13 @@ The mountains are how I tell my story. How I assert my will to live. The mountai
         }
         .mostly-full-pics {
             width: 100%;
+            margin-left: 0;
         }
         .left-image {
+            float: none;
+            width: 100%
+        }
+         .right-image {
             float: none;
             width: 100%
         }

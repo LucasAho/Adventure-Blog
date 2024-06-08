@@ -330,18 +330,23 @@ The rest of this report will pass in a blur, as it did in my head. It is the unf
             />
         </div>
         <div class="col-md-8 col-sm-12" style="padding-left: 0">
+            <p>
             We unroped, snacked, and took a moment to drink in our victory. I then prepared to sail off the summit cone. The slope angle seemed perfect for a novice skier, and fantasies swirled in my head of sailing down and across the plateau in one fell swoop.
-            <br/>
+            </p>
+            <p>
             At last, a window through the clouds appeared. Plateau in sight, I asked Matt to film me, and flew off down the slope for some epic turns. Except, on the first one, I fell and lost all momentum. I barely made it 100ft before I had to re-equip the skins. Apparently, my skiing still needs some work.
-            <br/>            
+            </p>
+            <p> 
             As we narrowed in on a line down the Roman Headwall, the white out swallowed us in totality. Unable to see more than a couple yards ahead, we had no way of knowing if our next step would take us out onto a cornice or into a crevasse. As such, we had to rope up once more, swinging 70m pitches all the way down the route. Ultimately, we would miss our turn in the low visibility, and we very nearly ended up on the wrong side of the mountain. During those moments of uncertainty, worried that we had descended the wrong aspect of the mountain, my spirit faltered once more. I lacked the strength to pull myself back up over the Colfax saddle.
-            <br/>
+            </p>
+            <p>
             Just as I began to lose faith in our safe descent, the clouds released us, and I spotted safe passage under a band of cliffs to rejoin the standard route. 
+            </p>
         </div>
     </div>
 </div>
 
-At long last, the camp came into view, but at this point, there was little joy left in the act. My body ached, hip growing stiff. 
+At long last, the camp came into view, but at this point, there was little joy left in the act. Each step ached, and my mind thought only of the ending.
 
  <div class="container mb-2">
     <img

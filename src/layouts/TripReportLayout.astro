@@ -1,5 +1,8 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import JamComments from "@jam-comments/astro";
+
+const { url } = Astro.props;
 const { frontmatter } = Astro.props;
 ---
 
@@ -33,6 +36,8 @@ const { frontmatter } = Astro.props;
                 ))
             }
         </div>
+        <h3>Comments</h3>
+        <JamComments />
     </div>
 </BaseLayout>
 <style>

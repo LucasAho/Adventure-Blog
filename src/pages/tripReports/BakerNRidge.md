@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/TripReportLayout.astro
+id: "baker"
 title: "Mt. Baker's North Ridge"
 pubDate: 2024-05-27
 blurb: A long day on a Washington classic

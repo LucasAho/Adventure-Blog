@@ -7,7 +7,7 @@ genre: Trip Report
 image:
     url: "https://i.imgur.com/517mx6t.jpg"
     alt: "Split East Face"
-tags: ["hiking", "mountaineering", "alpinism", "california", "blog", "trip reports"]
+tags: ["hiking", "mountaineering", "alpinism", "california", "blog", "trip reports", "Class 5 14ers"]
 ---
 
 ## If you ain't bailin', you ain't tryin'

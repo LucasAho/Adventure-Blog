@@ -1,0 +1,42 @@
+---
+const { id } = Astro.props;
+---
+
+<form id="add-comment">
+    <input type="hidden" aria-hidden="true" name="id" value="{id}" />
+    <label for="name-field-comment">Name</label>
+    <input type="text" name="name" id="name-field-comment" required />
+
+    <!-- Honeypot -->
+    <fieldset class="visually-hidden" aria-hidden="true">
+        <label for="last-name-field">Last Name:</label>
+        <input
+            type="text"
+            id="last-name-field"
+            name="last_name"
+            autocomplete="off"
+            tabindex="-1"
+        />
+    </fieldset>
+    <label for="comment-field">Comment</label>
+    <textarea rows="6" name="comment" id="comment-field" required></textarea>
+    <div class="text-right">
+        <input type="submit" id="comment-submit-btn" value="Add Comment" />
+    </div>
+</form>
+<section class="comments-section">
+    <h3 class="comments-title display-none">Comments:</h3>
+    <h3 class="empty-comments display-none">No comments yet.</h3>
+    <template id="comment-template">
+        <li class="single-comment">
+            <div class="comment-header">
+                <p class="comment-date"></p>
+                <p class="author">
+                    <span class="comment-author"></span> says...
+                </p>
+            </div>
+            <p class="comment-body"></p>
+        </li>
+    </template>
+    <ul id="comments-list"></ul>
+</section>

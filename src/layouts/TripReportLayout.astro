@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
-import JamComments from "@jam-comments/astro";
+import Comments from "../components/Comments.astro";
+
+const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 
 const { url } = Astro.props;
 const { frontmatter } = Astro.props;
@@ -37,7 +39,7 @@ const { frontmatter } = Astro.props;
             }
         </div>
         <h3>Comments</h3>
-        <JamComments />
+        <Comments id="{frontmatter.id}" />
     </div>
 </BaseLayout>
 <style>

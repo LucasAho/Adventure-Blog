@@ -7,7 +7,7 @@ genre: Trip Report
 image:
     url: "https://i.imgur.com/DHKzuWy.jpg"
     alt: "North Buttress from 13,000'"
-tags: ["hiking", "mountaineering", "alpinism", "colorado", "blog", "trip reports"]
+tags: ["hiking", "mountaineering", "alpinism", "colorado", "blog", "trip reports", "Class 5 14ers"]
 ---
 
 ## Facing Defeat

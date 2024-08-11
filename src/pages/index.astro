@@ -6,6 +6,13 @@ const allTripReports = await Astro.glob("../pages/tripReports/*.md");
 const allPoetry = await Astro.glob("../pages/poetry/*.md");
 const allAutoBio = await Astro.glob("../pages/autobio/*.md");
 
+allTripReports.sort(function (a, b) {
+	var c = new Date(a.frontmatter.pubDate);
+	var d = new Date(b.frontmatter.pubDate);
+	return c - d;
+});
+allTripReports.reverse();
+
 allPoetry.sort(function (a, b) {
 	var c = new Date(a.frontmatter.pubDate);
 	var d = new Date(b.frontmatter.pubDate);
@@ -98,7 +105,7 @@ allPoetry.reverse();
 		</div>
 	</div>
 	<!-- TR Block -->
-	<h3 class="text-center mt-3">My Story</h3>
+	<h3 class="text-center mt-3">Other</h3>
 	<div class="container py-2 text-center">
 		<div class="row justify-content-evenly align-items-start">
 			<div class="col-md-6 col-sm-12">

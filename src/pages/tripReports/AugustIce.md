@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/TripReportLayout.astro
 title: "August Ice"
-pubDate: 2024-08-14
+pubDate: 2024-08-24
 blurb: A brush with Valhalla
 genre: Trip Report
 image:

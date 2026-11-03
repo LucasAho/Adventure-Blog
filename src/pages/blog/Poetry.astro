@@ -2,9 +2,9 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import CategoryNavBar from "../../components/CategoryNavBar.astro";
 import BlogMoreSection from "../../components/BlogMoreSection.astro";
-import "./blog-styles.css";
+import "./_blog-styles.css";
 
-const allPoetry = await Astro.glob("../../pages/poetry/*.md");
+const allPoetry = Object.values(import.meta.glob("../../pages/poetry/*.md", { eager: true }));
 allPoetry.sort(function (a, b) {
     var c = new Date(a.frontmatter.pubDate);
     var d = new Date(b.frontmatter.pubDate);

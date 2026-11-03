@@ -102,3 +102,8 @@ h1 {
         color: rgb(255, 255, 255);
     }
 }
+
+.main-photo-crop {
+    aspect-ratio: 600 / 335;
+    object-fit: cover;
+}

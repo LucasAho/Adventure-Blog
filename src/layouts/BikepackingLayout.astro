@@ -1,0 +1,133 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import JamComments from "@jam-comments/astro";
+
+const { url } = Astro.props;
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout>
+    <div class="container py-2 text-center">
+        <div class="row justify-content-evenly align-items-center">
+            <div class="col-md-6 col-sm-12">
+                <h1>{frontmatter.title}</h1>
+                <p>{frontmatter.blurb}</p>
+                <div class="text-start mb-3">
+                    <p class="mb-0">Ridden {frontmatter.pubDate.slice(0, 10)}</p>
+                    <p class="mb-0">Distance: {frontmatter.distance}</p>
+                    <p class="mb-0">Vert: {frontmatter.vert}</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                {
+                    frontmatter.image && (
+                        <img
+                            width="100%"
+                            class="main-photo-crop"
+                            src={frontmatter.image.url}
+                            alt={frontmatter.image.alt}
+                        />
+                    )
+                }
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="post-body">
+            <slot />
+        </div>
+
+        {
+            frontmatter.tags.length > 0 && (
+                <>
+                    <h3>Other posts like this:</h3>
+                    <div class="tags">
+                        {frontmatter.tags.map((tag) => (
+                            <p class="tag">
+                                <a href={`/tags/${tag}`}>{tag}</a>
+                            </p>
+                        ))}
+                    </div>
+                </>
+            )
+        }
+        <h3>Comments</h3>
+        <JamComments />
+    </div>
+</BaseLayout>
+<style>
+    a {
+        color: #00539f;
+    }
+    /* Photos in the post: fit any shape on any screen, without per-photo classes */
+    .post-body :global(img) {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 80vh;
+        margin: 1rem auto;
+    }
+    /* Two photos on consecutive lines sit side by side on wider screens */
+    @media screen and (min-width: 768px) {
+        .post-body :global(p:has(> img + img)) {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+        .post-body :global(p:has(> img + img) img) {
+            flex: 1 1 0;
+            min-width: 0;
+            max-height: none;
+            margin: 1rem 0;
+        }
+    }
+    /* GPX download cards: side by side on wider screens, stacked on phones */
+    .post-body :global(.gpx-cards) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .post-body :global(.gpx-card) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        padding-bottom: 0.75rem;
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        color: inherit;
+        text-decoration: none;
+    }
+    .post-body :global(.gpx-card:hover) {
+        border-color: rgb(24, 13, 53);
+    }
+    .post-body :global(.gpx-card img) {
+        width: 100%;
+        max-height: none;
+        margin: 0 0 0.5rem;
+    }
+    .post-body :global(.gpx-card strong),
+    .post-body :global(.gpx-card span) {
+        padding: 0 0.75rem;
+    }
+    .post-body :global(.gpx-card .gpx-download) {
+        margin-top: auto;
+        padding-top: 0.25rem;
+        color: #00539f;
+        font-weight: 600;
+    }
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tag {
+        margin: 0.25em;
+        border: dotted 1px #a1a1a1;
+        border-radius: 0.5em;
+        padding: 0.5em 1em;
+        font-size: 1.15em;
+        background-color: #f8fcfd;
+    }
+</style>

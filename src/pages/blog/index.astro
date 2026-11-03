@@ -1,15 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import CategoryNavBar from "../../components/CategoryNavBar.astro";
-import "./blog-styles.css";
+import "./_blog-styles.css";
 import BlogMoreSection from "../../components/BlogMoreSection.astro";
 
-const allTripReports = await Astro.glob("../../pages/tripReports/*.md");
-const allPoetry = await Astro.glob("../../pages/poetry/*.md");
-const allBio = await Astro.glob("../../pages/autobio/*.md");
+const allTripReports = Object.values(import.meta.glob("../../pages/tripReports/*.md", { eager: true }));
+const allPoetry = Object.values(import.meta.glob("../../pages/poetry/*.md", { eager: true }));
 
 //Combine and sort all posts by date
-const allContent = allTripReports.concat(allPoetry).concat(allBio);
+const allContent = allTripReports.concat(allPoetry);
 allContent.sort(function (a, b) {
     return a.frontmatter.pubDate.localeCompare(b.frontmatter.pubDate);
 });

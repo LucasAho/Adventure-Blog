@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import CategoryNavBar from "../../components/CategoryNavBar.astro";
-import "./blog-styles.css";
+import "./_blog-styles.css";
 
-const allTripReports = await Astro.glob("../../pages/tripReports/*.md");
+const allTripReports = Object.values(import.meta.glob("../../pages/tripReports/*.md", { eager: true }));
 
 const lowerRows = [];
 for (let i = 0; i < allTripReports.length; i++) {
